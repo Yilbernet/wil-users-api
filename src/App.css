@@ -1,0 +1,46 @@
+/* ----- Reset ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border-radius: 5px;
+}
+input {
+  padding: 5px;
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+}
+button {
+  border: none;
+  padding: 3px 9px;
+}
+/* ----- App ----- */
+.app__header {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app__container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
